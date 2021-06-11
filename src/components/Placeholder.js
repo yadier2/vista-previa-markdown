@@ -1,34 +1,49 @@
-export const placeholder = `# La importancia de la programación en la actualidad
+export const placeholder = `# React
 
-La programación ha sido la causante de que la tecnología haya podido avanzar hasta como la encontramos en la actualidad, permitiendo que se desarrollen inventos que faciliten la vida a todas las personas.
+## Una biblioteca de JavaScript para construir interfaces de usuario
+### Declarativo
+React te ayuda a crear interfaces de usuario interactivas de forma sencilla.
+### Basado en componentes
+Crea componentes encapsulados que manejen su propio estado, y conviértelos en interfaces de usuario complejas.
 
-## ¿En qué ha ayudado la programación?
-Tan solo durante los últimos años, la programación ha sido la encargada de que la mayoría de ideas tecnológicas hayan podido ver la luz, facilitando el trabajo diario a miles de personas.\
+Here is an example code.
 
-## La programación en la actualidad.
-Podemos decir, sin miedo a equivocarnos, que la programación es la base del futuro, la encargada de que la tecnología se siga desarrollando y de que aparezcan inventos nuevos.</br>
+  import React from 'react'  
+  \`const Preview = () => {
+    return (
+      <div>
+        Hola
+      </div>
+    )
+  }
+  export default Preview\`
 
-Hoy en día vemos la calculadora como un producto simple, que puede ayudarnos con nuestro trabajo, pero, cuando apareció por primera vez, el hombre tuvo una gran reacción al ver como un objeto tan pequeño podía realizar operaciones matemáticas en cuestión de segundos, algo que un hombre normal tardaría varios minutos.
+\`\`\`
 
-## La programación en la industria.
-Se puede encontrar la programación en todo tipo de industrias, desde el entretenimiento hasta la musical, sin dejar a un lado las que desarrollan softwares. Saber utilizar bien un programa te permite darles a tus fotografías un toque profesional o que un robot se encargue de realizar tu trabajo.
+// Aprende una vez, escríbelo donde sea:
+
+function anotherExample(firstLine, lastLine) {
+  if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
+    return multiLineCode;
+  }
+}
+\`\`\`
+Algunas de las grandes marcas que utilizan React son:
+
+ **Facebook**
+ Instagram!
+ _Yahoo_.
+ **_Netflix!_**
+
+ Haz el tutorial [React](https://es.reactjs.org/), 
+> Comienza!
+
+### VENTAJAS DE USAR REACT.JS
+
+1. Aumenta la productividad y facilita un mayor mantenimiento.
+1. Asegura un renderizado más rápido
+1. Es utilizado tanto por empresas Fortune 500 como por startups innovadoras
 
 
-
-#Estos son los 10 lenguajes de programación con más tirón entre los desarrolladores.
-
-1. PHP
-1. Perl
-1. Java
-1. C++
-1. C#
-1. Python
-1. JavaScript
-1. Swift
-1. R
-1. Rust
-
-![Programación w/ Text](https://i.ibb.co/9Y9sJKQ/Imagen1.png)
-
-## Únete a millones de estudiante alrededor del mundo que ya están aprendiendo a programar.
+![React Logo w/ Text](https://www2.deloitte.com/content/dam/Deloitte/es/Images/promo_images/tecnologia/Deloitte-ES-Tecnolog%C3%ADa-React-Native-1x1.png/_jcr_content/renditions/cq5dam.web.250.250.mobile.jpeg)
 `;

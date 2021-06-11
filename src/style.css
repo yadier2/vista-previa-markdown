@@ -1,0 +1,23 @@
+#preview {
+    margin-left: 5px;
+    margin-top: -10px;
+    width: 100%;
+  }
+  img {
+
+    width: 100%;
+    height: auto;
+  
+  }
+.edit-prev{
+
+    height: 90vh;
+    overflow: scroll;
+  }
+  textarea{
+      height: 85vh;
+  }
+
+  textarea ::-webkit-scrollbar {
+    display: none;
+}
